@@ -8,11 +8,16 @@ body {
   font-family: Arial, sans-serif;
   background-color: #5c5959;
   color: #333;
+  background-image: url(/img/background-image2.jpg); /* Adiciona a imagem de fundo */
+  background-size: cover; /* Faz a imagem cobrir todo o container */
+  background-position: center; /* Centraliza a imagem */
 }
 
 /* Seção de Cabeçalho */
 header {
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.356);
+  /* Adiciona um efeito de desfoque para melhorar a legibilidade do texto */
+  backdrop-filter: blur(5px);
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -24,10 +29,6 @@ header {
   align-items: center; /* Centraliza verticalmente o texto com a foto */
   justify-content: space-around; /* Empurra a foto para a direita e o texto para a esquerda com espaço entre eles */
   padding: 50px 10%; /* Dá um respiro nas laterais */
-  background-color: #5c5959; /* Mantém a sua cor de fundo */
-  background-image: url(/img/background-image2.jpg); /* Adiciona a imagem de fundo */
-  background-size: cover; /* Faz a imagem cobrir todo o container */
-  background-position: center; /* Centraliza a imagem */
 }
 
 /* Seção de Conteúdo Principal */
@@ -35,6 +36,10 @@ header {
   width: 50%; /* Define uma largura para o texto */
   text-align: center; /* Mantém o texto alinhado à esquerda dentro do bloco dele */
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.356);
+  padding: 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
 }
 
 .foto-perfil {
@@ -46,14 +51,15 @@ header {
 
 /* Para garantir que os projetos lá embaixo não subam */
 .project {
-  padding: 20px 10%;
-  background-color: #333; /* Cor de fundo para destacar do hero */
+  padding: 20px 10%; /* Cor de fundo para destacar do hero */
   color: #fff;
 }
 
 /* Seção de Contato */
 .contact {
-  background-color: #333;
+  /* Adiciona um efeito de desfoque para melhorar a legibilidade do texto */
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.356);
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -61,7 +67,9 @@ header {
 
 /* Seção de Rodapé */
 footer {
-  background-color: #333;
+  /* Adiciona um efeito de desfoque para melhorar a legibilidade do texto */
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.356);
   color: #fff;
   text-align: center;
   padding: 10px 0;
