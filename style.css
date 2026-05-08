@@ -25,6 +25,9 @@ header {
   justify-content: space-around; /* Empurra a foto para a direita e o texto para a esquerda com espaço entre eles */
   padding: 50px 10%; /* Dá um respiro nas laterais */
   background-color: #5c5959; /* Mantém a sua cor de fundo */
+  background-image: url(/img/background-image2.jpg); /* Adiciona a imagem de fundo */
+  background-size: cover; /* Faz a imagem cobrir todo o container */
+  background-position: center; /* Centraliza a imagem */
 }
 
 /* Seção de Conteúdo Principal */
