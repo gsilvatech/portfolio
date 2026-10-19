@@ -139,7 +139,7 @@ export function Hero() {
 
           <span
             aria-hidden
-            className="flex min-h-[3.75rem] items-start justify-center break-all px-2 font-mono text-[11px] leading-5 text-brand-violet sm:min-h-[1.75rem] sm:break-normal sm:text-base sm:leading-7"
+            className="flex min-h-[1.25rem] items-start justify-center break-all px-2 font-mono text-[11px] leading-5 text-brand-violet sm:min-h-[1.75rem] sm:break-normal sm:text-base sm:leading-7"
           >
             <span>
               {greeting}
