@@ -16,7 +16,7 @@ export function About() {
   const a = t.about;
 
   return (
-    <section id="about" className="relative px-4 py-24 sm:py-32">
+    <section id="about" className="relative px-4 py-10 sm:py-20">
       <div className="mx-auto max-w-6xl">
         <SectionHeading index="01" label={a.label} title={a.title} />
 

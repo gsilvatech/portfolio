@@ -10,7 +10,7 @@ export function Contact() {
   const c = t.contact;
 
   return (
-    <section id="contact" className="relative px-4 pb-16 pt-24 sm:pt-32">
+    <section id="contact" className="relative px-4 pb-16 pt-10 sm:pt-20">
       <div className="mx-auto max-w-5xl">
         <Reveal>
           <div className="relative overflow-hidden rounded-[2rem] border border-line bg-card px-6 py-16 text-center sm:px-12 sm:py-20">

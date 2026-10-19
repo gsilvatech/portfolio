@@ -417,9 +417,7 @@ export const dictionaries: Record<Lang, Dict> = { en, pt };
 
 /** Títulos que alternam no hero (sempre em português e inglês, como no briefing). */
 export const ROTATING_TITLES = [
-  "Desenvolvedor Fullstack",
   "Full Stack Developer",
-  "Engenheiro de Software",
   "Software Engineer",
   "Backend & Automation",
   "LLM & IA",

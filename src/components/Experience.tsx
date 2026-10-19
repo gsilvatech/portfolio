@@ -8,7 +8,7 @@ export function Experience() {
   const e = t.experience;
 
   return (
-    <section id="experience" className="relative px-4 py-24 sm:py-32">
+    <section id="experience" className="relative px-4 py-10 sm:py-20">
       <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] lg:gap-16">
         <div className="lg:sticky lg:top-28 lg:self-start">
           <SectionHeading index="03" label={e.label} title={e.title} />
