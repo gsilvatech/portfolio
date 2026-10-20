@@ -2,7 +2,7 @@ export const SITE = {
   name: "Gabriel Ferreira",
   brand: "GSILVATECH",
   // Troque pela variável de ambiente NEXT_PUBLIC_SITE_URL quando o domínio estiver registrado.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://gsilvatech.dev",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://gsilvatech.vercel.app",
   github: "https://github.com/gsilvatech",
   linkedin: "https://www.linkedin.com/in/sougabrieloficial",
   email: "gabriel_210203@hotmail.com",
