@@ -191,7 +191,7 @@ const en = {
   },
   contact: {
     label: "Contact",
-    title: "Let's build something together?",
+    title: "Let’s talk",
     subtitle: "Get in touch.",
     github: "GitHub",
     linkedin: "LinkedIn",
@@ -393,7 +393,7 @@ const pt: Dict = {
   },
   contact: {
     label: "Contato",
-    title: "Vamos construir algo juntos?",
+    title: "Vamos conversar?",
     subtitle: "Entre em contato.",
     github: "GitHub",
     linkedin: "LinkedIn",
