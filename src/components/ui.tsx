@@ -72,7 +72,7 @@ export function SectionHeading({
         <span className="text-gradient-cool">{index}</span>{" "}
         <span className="text-mute">/ {label}</span>
       </p>
-      <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-5xl">
+      <h2 className="mt-2 text-2xl font-semibold tracking-tight sm:mt-3 sm:text-5xl">
         {title}
       </h2>
       {hint ? <p className="mt-3 text-mute">{hint}</p> : null}

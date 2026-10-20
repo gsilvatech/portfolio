@@ -16,11 +16,11 @@ export function About() {
   const a = t.about;
 
   return (
-    <section id="about" className="relative px-4 py-10 sm:py-20">
+    <section id="about" className="relative px-4 py-6 sm:py-10">
       <div className="mx-auto max-w-6xl">
         <SectionHeading index="01" label={a.label} title={a.title} />
 
-        <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-6">
+        <div className="mt-6 grid gap-3 sm:mt-6 md:grid-cols-2 lg:grid-cols-6">
           {/* trajetória */}
           <Reveal className="md:col-span-2 lg:col-span-4 lg:row-span-2">
             <Card
@@ -30,9 +30,9 @@ export function About() {
                   "radial-gradient(ellipse at 0% 0%, rgba(139,92,246,0.22), transparent 55%), radial-gradient(ellipse at 100% 100%, rgba(236,72,153,0.16), transparent 55%)",
               }}
             >
-              <div className="flex h-full flex-col p-7 sm:p-9">
+              <div className="flex h-full flex-col p-4 sm:p-6">
                 <Label>{a.summaryLabel}</Label>
-                <div className="mt-5 space-y-5 text-lg leading-relaxed text-ink/90 sm:text-xl">
+                <div className="mt-3 space-y-3 text-base leading-relaxed text-ink/90 sm:mt-4 sm:space-y-4 sm:text-xl">
                   {a.summary.map((p, i) => (
                     <p key={i} className={i === 0 ? "text-ink" : "text-ink/80"}>
                       {p}
@@ -52,13 +52,13 @@ export function About() {
                   "linear-gradient(135deg, rgba(139,92,246,0.28), rgba(236,72,153,0.2))",
               }}
             >
-              <div className="flex h-full flex-col justify-between gap-6 p-7">
+              <div className="flex h-full flex-col justify-between gap-4 p-4 sm:gap-5 sm:p-6">
                 <span className="inline-flex w-fit items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 font-mono text-xs text-emerald-300">
                   <span className="pulse-dot h-1.5 w-1.5 rounded-full bg-emerald-400" />
                   {a.productionLabel}
                 </span>
                 <div>
-                  <p className="text-gradient w-fit text-6xl font-semibold tracking-tight sm:text-7xl">
+                  <p className="text-gradient w-fit text-5xl font-semibold tracking-tight sm:text-7xl">
                     {a.productionMetric}
                   </p>
                   <p className="mt-3 text-sm leading-relaxed text-ink/85">
@@ -72,7 +72,7 @@ export function About() {
           {/* inglês / intérprete */}
           <Reveal className="lg:col-span-2" delay={0.1}>
             <Card className="h-full">
-              <div className="flex h-full flex-col gap-3 p-7">
+              <div className="flex h-full flex-col gap-3 p-4 sm:p-6">
                 <Label>{a.englishLabel}</Label>
                 <h3 className="text-xl font-semibold leading-snug tracking-tight">
                   {a.englishTitle}
@@ -85,9 +85,9 @@ export function About() {
           {/* bagagem técnica */}
           <Reveal className="md:col-span-2 lg:col-span-3" delay={0.05}>
             <Card className="h-full">
-              <div className="p-7">
+              <div className="p-4 sm:p-6">
                 <Label>{a.toolboxLabel}</Label>
-                <div className="mt-5 space-y-5">
+                <div className="mt-3 space-y-3 sm:mt-4 sm:space-y-4">
                   {a.toolbox.map((g) => (
                     <div key={g.name}>
                       <p className="text-sm font-medium text-ink">{g.name}</p>
@@ -111,9 +111,9 @@ export function About() {
           {/* desafios */}
           <Reveal className="md:col-span-2 lg:col-span-3" delay={0.1}>
             <Card className="h-full">
-              <div className="p-7">
+              <div className="p-4 sm:p-6">
                 <Label>{a.challengesLabel}</Label>
-                <ul className="mt-5 space-y-4">
+                <ul className="mt-3 space-y-3">
                   {a.challenges.map((c) => (
                     <li key={c} className="flex gap-3 text-sm leading-relaxed text-ink/85">
                       <span
@@ -131,9 +131,9 @@ export function About() {
           {/* formação */}
           <Reveal className="md:col-span-2 lg:col-span-4" delay={0.05}>
             <Card className="h-full">
-              <div className="p-7">
+              <div className="p-4 sm:p-6">
                 <Label>{a.educationLabel}</Label>
-                <ul className="mt-5 grid gap-5 sm:grid-cols-2">
+                <ul className="mt-3 grid gap-3 sm:grid-cols-2">
                   {a.education.map((e) => (
                     <li key={e.title}>
                       <p className="font-medium leading-snug">{e.title}</p>
@@ -149,7 +149,7 @@ export function About() {
           {/* localização */}
           <Reveal className="md:col-span-2 lg:col-span-2" delay={0.1}>
             <Card className="h-full">
-              <div className="flex h-full flex-col gap-2 p-7">
+              <div className="flex h-full flex-col gap-2 p-4 sm:p-6">
                 <Label>{a.locationLabel}</Label>
                 <p className="text-lg font-semibold leading-snug tracking-tight">
                   {a.locationTitle}
